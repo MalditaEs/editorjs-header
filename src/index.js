@@ -444,7 +444,7 @@ export default class Header {
 
     this.data = {
       level,
-      text: content.innerHTML,
+      text: content.innerHTML.trim(),
     };
   }
 
