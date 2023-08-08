@@ -172,7 +172,7 @@ export default class Header {
    */
   save(toolsContent) {
     return {
-      text: toolsContent.innerHTML,
+      text: toolsContent.innerHTML.trim(),
       level: this.currentLevel.number,
     };
   }
